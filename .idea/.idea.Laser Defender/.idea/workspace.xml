@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +16,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+            <state relative-caret-position="416">
+              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
               <folding>
-                <marker date="1549018742858" expanded="false" signature="6:96" ph="..." />
-                <marker date="1549018742858" expanded="true" signature="133:2017" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="587:630" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="688:732" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="773:1155" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="1180:1568" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="1593:1715" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="1641:1709" ph="{...}" />
-                <marker date="1549018742858" expanded="true" signature="1751:2015" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="6:96" ph="..." />
+                <marker date="1549018982602" expanded="true" signature="133:2233" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="627:670" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="728:772" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="813:1195" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1220:1608" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1633:1878" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1681:1767" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1808:1872" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1914:2231" ph="{...}" />
+                <marker date="1549018982602" expanded="true" signature="1941:2225" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1549019510484" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549019510484" expanded="true" signature="117:228" ph="{...}" />
+                <marker date="1549019510484" expanded="true" signature="175:226" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -42,11 +59,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
       </list>
     </option>
   </component>
@@ -135,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="1324000" />
+      <workItem from="1549017420701" duration="2340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4490000" />
+    <option name="totallyTimeSpent" value="5506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,18 +228,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+        <state relative-caret-position="416">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
           <folding>
-            <marker date="1549018742858" expanded="false" signature="6:96" ph="..." />
-            <marker date="1549018742858" expanded="true" signature="133:2017" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="587:630" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="688:732" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="773:1155" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="1180:1568" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="1593:1715" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="1641:1709" ph="{...}" />
-            <marker date="1549018742858" expanded="true" signature="1751:2015" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="6:96" ph="..." />
+            <marker date="1549018982602" expanded="true" signature="133:2233" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="627:670" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="728:772" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="813:1195" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1220:1608" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1633:1878" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1681:1767" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1808:1872" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1914:2231" ph="{...}" />
+            <marker date="1549018982602" expanded="true" signature="1941:2225" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1549019510484" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549019510484" expanded="true" signature="117:228" ph="{...}" />
+            <marker date="1549019510484" expanded="true" signature="175:226" ph="{...}" />
           </folding>
         </state>
       </provider>
