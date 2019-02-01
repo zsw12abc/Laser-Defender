@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <marker date="1549019510484" expanded="false" signature="6:78" ph="..." />
                 <marker date="1549019510484" expanded="true" signature="117:228" ph="{...}" />
@@ -54,13 +51,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <marker date="1549020212171" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549020212171" expanded="true" signature="121:334" ph="{...}" />
-                <marker date="1549020212171" expanded="true" signature="250:262" ph="{...}" />
-                <marker date="1549020212171" expanded="true" signature="320:332" ph="{...}" />
+                <marker date="1549023371346" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549023371346" expanded="true" signature="121:936" ph="{...}" />
+                <marker date="1549023371346" expanded="true" signature="347:434" ph="{...}" />
+                <marker date="1549023371346" expanded="true" signature="461:934" ph="{...}" />
+                <marker date="1549023371346" expanded="true" signature="518:862" ph="{...}" />
+                <marker date="1549023371346" expanded="true" signature="875:928" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,7 +89,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -175,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="3405000" />
+      <workItem from="1549017420701" duration="3818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6571000" />
+    <option name="totallyTimeSpent" value="6984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,7 +191,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
@@ -270,7 +269,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <marker date="1549019510484" expanded="false" signature="6:78" ph="..." />
             <marker date="1549019510484" expanded="true" signature="117:228" ph="{...}" />
@@ -281,13 +280,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <marker date="1549020212171" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549020212171" expanded="true" signature="121:334" ph="{...}" />
-            <marker date="1549020212171" expanded="true" signature="250:262" ph="{...}" />
-            <marker date="1549020212171" expanded="true" signature="320:332" ph="{...}" />
+            <marker date="1549023371346" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549023371346" expanded="true" signature="121:936" ph="{...}" />
+            <marker date="1549023371346" expanded="true" signature="347:434" ph="{...}" />
+            <marker date="1549023371346" expanded="true" signature="461:934" ph="{...}" />
+            <marker date="1549023371346" expanded="true" signature="518:862" ph="{...}" />
+            <marker date="1549023371346" expanded="true" signature="875:928" ph="{...}" />
           </folding>
         </state>
       </provider>
