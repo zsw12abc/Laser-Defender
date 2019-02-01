@@ -4,8 +4,7 @@
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -52,6 +51,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <marker date="1549020212171" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549020212171" expanded="true" signature="121:334" ph="{...}" />
+                <marker date="1549020212171" expanded="true" signature="250:262" ph="{...}" />
+                <marker date="1549020212171" expanded="true" signature="320:332" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -60,12 +74,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" />
       </list>
     </option>
   </component>
@@ -74,7 +90,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -93,6 +109,11 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -154,12 +175,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="2340000" />
+      <workItem from="1549017420701" duration="3405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5506000" />
+    <option name="totallyTimeSpent" value="6571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -171,7 +192,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
@@ -254,6 +275,19 @@
             <marker date="1549019510484" expanded="false" signature="6:78" ph="..." />
             <marker date="1549019510484" expanded="true" signature="117:228" ph="{...}" />
             <marker date="1549019510484" expanded="true" signature="175:226" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1549020212171" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549020212171" expanded="true" signature="121:334" ph="{...}" />
+            <marker date="1549020212171" expanded="true" signature="250:262" ph="{...}" />
+            <marker date="1549020212171" expanded="true" signature="320:332" ph="{...}" />
           </folding>
         </state>
       </provider>
