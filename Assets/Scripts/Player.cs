@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 {
     [Header("Player")] [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float padding = 0.5f;
-    [SerializeField] private float health = 200;
+    [SerializeField] private int health = 200;
     [SerializeField] private AudioClip deathSFX;
     [SerializeField] [Range(0, 1)] private float deathSoundVolumn = 0.75f;
     [SerializeField] private AudioClip shotSFX;
@@ -66,6 +66,11 @@ public class Player : MonoBehaviour
         FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolumn);
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     private void SetUpMoveBoundaries()

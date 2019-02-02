@@ -16,6 +16,7 @@
           <e p="EnemyPathing.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
           <e p="GameSession.cs" t="Include" />
+          <e p="HealthDisplay.cs" t="Include" />
           <e p="Level.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="Player.cs" t="Include" />
