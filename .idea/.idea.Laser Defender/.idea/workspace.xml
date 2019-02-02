@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,14 +91,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+            <state relative-caret-position="285">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <marker date="1549079287368" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549079287368" expanded="true" signature="121:930" ph="{...}" />
-                <marker date="1549079287368" expanded="true" signature="289:415" ph="{...}" />
-                <marker date="1549079287368" expanded="true" signature="486:928" ph="{...}" />
-                <marker date="1549079287368" expanded="true" signature="586:922" ph="{...}" />
+                <marker date="1549080055622" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549080055622" expanded="true" signature="121:1166" ph="{...}" />
+                <marker date="1549080055622" expanded="true" signature="306:359" ph="{...}" />
+                <marker date="1549080055622" expanded="true" signature="400:651" ph="{...}" />
+                <marker date="1549080055622" expanded="true" signature="494:645" ph="{...}" />
+                <marker date="1549080055622" expanded="true" signature="722:1164" ph="{...}" />
+                <marker date="1549080055622" expanded="true" signature="822:1158" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -165,6 +166,17 @@
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Space Shooter Visual Assets" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Space Shooter Visual Assets" type="1045f7f1:UnityExplorerNode" />
+              <item name="PNG" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Packages" type="4e2708dd:PackagesRoot" />
             </path>
           </expand>
@@ -223,12 +235,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="8784000" />
+      <workItem from="1549017420701" duration="9665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11950000" />
+    <option name="totallyTimeSpent" value="12831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,9 +253,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,14 +376,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="285">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <marker date="1549079287368" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549079287368" expanded="true" signature="121:930" ph="{...}" />
-            <marker date="1549079287368" expanded="true" signature="289:415" ph="{...}" />
-            <marker date="1549079287368" expanded="true" signature="486:928" ph="{...}" />
-            <marker date="1549079287368" expanded="true" signature="586:922" ph="{...}" />
+            <marker date="1549080055622" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549080055622" expanded="true" signature="121:1166" ph="{...}" />
+            <marker date="1549080055622" expanded="true" signature="306:359" ph="{...}" />
+            <marker date="1549080055622" expanded="true" signature="400:651" ph="{...}" />
+            <marker date="1549080055622" expanded="true" signature="494:645" ph="{...}" />
+            <marker date="1549080055622" expanded="true" signature="722:1164" ph="{...}" />
+            <marker date="1549080055622" expanded="true" signature="822:1158" ph="{...}" />
           </folding>
         </state>
       </provider>
