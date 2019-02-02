@@ -9,8 +9,7 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] private int scoreValue = 150;
 
-    [Header("Shooting")] [SerializeField] private float shotCounter;
-    [SerializeField] private float minTimeBetweenShots = 0.2f;
+    [Header("Shooting")] [SerializeField] private float minTimeBetweenShots = 0.2f;
     [SerializeField] private float maxTimeBetweenShots = 3f;
     [SerializeField] private GameObject projectile;
     [SerializeField] private float projectileSpeed = 10f;
@@ -24,11 +23,12 @@ public class Enemy : MonoBehaviour
     [SerializeField] private AudioClip shotSFX;
     [SerializeField] [Range(0, 1)] private float shotSoundVolumn = 0.25f;
 
+    private float _shotCounter;
 
     // Start is called before the first frame update
     void Start()
     {
-        shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+        _shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
     }
 
     // Update is called once per frame
@@ -39,11 +39,11 @@ public class Enemy : MonoBehaviour
 
     private void CountDownAndShoot()
     {
-        shotCounter -= Time.deltaTime;
-        if (shotCounter <= 0)
+        _shotCounter -= Time.deltaTime;
+        if (_shotCounter <= 0)
         {
             Fire();
-            shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+            _shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
     }
 
