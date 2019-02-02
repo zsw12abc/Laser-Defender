@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     {
         var damageDealer = other.gameObject.GetComponent<DamageDealer>();
         health -= damageDealer.GetDamage();
-        if (health >= 0)
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
