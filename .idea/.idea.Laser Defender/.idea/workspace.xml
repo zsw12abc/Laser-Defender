@@ -148,6 +148,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>enemypr</find>
+      <find>debug.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -294,12 +295,12 @@
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
       <workItem from="1549017420701" duration="23533000" />
-      <workItem from="1549105625395" duration="582000" />
+      <workItem from="1549105625395" duration="735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27281000" />
+    <option name="totallyTimeSpent" value="27434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
