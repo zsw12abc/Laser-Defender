@@ -115,6 +115,9 @@ MonoBehaviour:
   projectile: {fileID: 4484043903634027307, guid: 1560e4e6a395f1f46a5c0b68bd4ee6d3,
     type: 3}
   projectileSpeed: 10
+  deathVFX: {fileID: 3062101219747672076, guid: 9c8c87ae6217fb54d9f1117d90c41411,
+    type: 3}
+  durationOfExplosion: 1
 --- !u!58 &1314807586078751732
 CircleCollider2D:
   m_ObjectHideFlags: 0
