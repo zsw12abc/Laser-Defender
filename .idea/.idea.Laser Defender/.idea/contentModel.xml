@@ -13,6 +13,7 @@
           <e p="EnemyPathing.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Shredder.cs" t="Include" />
+          <e p="WaveConfig.cs" t="Include" />
         </e>
         <e p="Space Shooter Visual Assets" t="Include">
           <e p="license.txt" t="Include" />

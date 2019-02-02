@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,18 +49,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="304">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
-                <marker date="1549023371346" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549023371346" expanded="true" signature="121:936" ph="{...}" />
-                <marker date="1549023371346" expanded="true" signature="347:434" ph="{...}" />
-                <marker date="1549023371346" expanded="true" signature="461:934" ph="{...}" />
-                <marker date="1549023371346" expanded="true" signature="518:862" ph="{...}" />
-                <marker date="1549023371346" expanded="true" signature="875:928" ph="{...}" />
+                <marker date="1549023385121" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549023385121" expanded="true" signature="121:989" ph="{...}" />
+                <marker date="1549023385121" expanded="true" signature="347:434" ph="{...}" />
+                <marker date="1549023385121" expanded="true" signature="461:489" ph="{...}" />
+                <marker date="1549023385121" expanded="true" signature="514:987" ph="{...}" />
+                <marker date="1549023385121" expanded="true" signature="571:915" ph="{...}" />
+                <marker date="1549023385121" expanded="true" signature="928:981" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <marker date="1549073983089" expanded="true" signature="172:667" ph="{...}" />
+                <marker date="1549073983089" expanded="true" signature="547:587" ph="{...}" />
+                <marker date="1549073983089" expanded="true" signature="626:665" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,6 +87,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +98,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" />
       </list>
     </option>
   </component>
@@ -174,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="3818000" />
+      <workItem from="1549017420701" duration="4768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6984000" />
+    <option name="totallyTimeSpent" value="7934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,15 +298,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="304">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <marker date="1549023371346" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549023371346" expanded="true" signature="121:936" ph="{...}" />
-            <marker date="1549023371346" expanded="true" signature="347:434" ph="{...}" />
-            <marker date="1549023371346" expanded="true" signature="461:934" ph="{...}" />
-            <marker date="1549023371346" expanded="true" signature="518:862" ph="{...}" />
-            <marker date="1549023371346" expanded="true" signature="875:928" ph="{...}" />
+            <marker date="1549023385121" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549023385121" expanded="true" signature="121:989" ph="{...}" />
+            <marker date="1549023385121" expanded="true" signature="347:434" ph="{...}" />
+            <marker date="1549023385121" expanded="true" signature="461:489" ph="{...}" />
+            <marker date="1549023385121" expanded="true" signature="514:987" ph="{...}" />
+            <marker date="1549023385121" expanded="true" signature="571:915" ph="{...}" />
+            <marker date="1549023385121" expanded="true" signature="928:981" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1549073983089" expanded="true" signature="172:667" ph="{...}" />
+            <marker date="1549073983089" expanded="true" signature="547:587" ph="{...}" />
+            <marker date="1549073983089" expanded="true" signature="626:665" ph="{...}" />
           </folding>
         </state>
       </provider>
