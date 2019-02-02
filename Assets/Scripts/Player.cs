@@ -5,13 +5,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 10f;
+    [Header("Player")] [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float padding = 0.5f;
-    [SerializeField] private GameObject laserPrefab;
+    [SerializeField] private float health = 200;
+
+    [Header("Projectile")] [SerializeField]
+    private GameObject laserPrefab;
+
     [SerializeField] private float projectileSpeed = 10f;
     [SerializeField] private float projectileFiringPeriod = 0.1f;
 
-    private Coroutine firingCoroutine;
+    private Coroutine _firingCoroutine;
 
     private float _xMin;
     private float _xMax;
@@ -29,6 +33,21 @@ public class Player : MonoBehaviour
     {
         Move();
         Fire();
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        var damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        ProcessHit(damageDealer);
+    }
+
+    private void ProcessHit(DamageDealer damageDealer)
+    {
+        health -= damageDealer.GetDamage();
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 
@@ -54,12 +73,12 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            firingCoroutine = StartCoroutine(FireContinuously());
+            _firingCoroutine = StartCoroutine(FireContinuously());
         }
 
         if (Input.GetButtonUp("Fire1"))
         {
-            StopCoroutine(firingCoroutine);
+            StopCoroutine(_firingCoroutine);
         }
     }
 
