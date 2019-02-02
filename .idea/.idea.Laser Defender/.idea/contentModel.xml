@@ -15,9 +15,11 @@
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyPathing.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
+          <e p="GameSession.cs" t="Include" />
           <e p="Level.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="ScoreDisplay.cs" t="Include" />
           <e p="Shredder.cs" t="Include" />
           <e p="WaveConfig.cs" t="Include" />
         </e>
