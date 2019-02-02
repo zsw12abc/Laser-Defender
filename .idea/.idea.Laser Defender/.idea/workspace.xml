@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc563ca0-df7e-49d7-955a-55a017306925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bernard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bernard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roger.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -44,15 +42,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding>
-                <marker date="1549097812413" expanded="true" signature="6:113" ph="..." />
-                <marker date="1549097812413" expanded="true" signature="149:469" ph="{...}" />
-                <marker date="1549097812413" expanded="true" signature="183:230" ph="{...}" />
-                <marker date="1549097812413" expanded="true" signature="258:310" ph="{...}" />
-                <marker date="1549097812413" expanded="true" signature="342:399" ph="{...}" />
-                <marker date="1549097812413" expanded="true" signature="427:467" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="6:113" ph="..." />
+                <marker date="1549099431967" expanded="true" signature="149:675" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="242:289" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="317:369" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="401:452" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="491:605" ph="{...}" />
+                <marker date="1549099431967" expanded="true" signature="633:673" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1549099800311" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549099800311" expanded="true" signature="120:294" ph="{...}" />
+                <marker date="1549099800311" expanded="true" signature="192:213" ph="{...}" />
+                <marker date="1549099800311" expanded="true" signature="271:292" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -196,6 +209,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -213,8 +227,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
       </list>
     </option>
   </component>
@@ -326,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548757480922</updated>
       <workItem from="1548757497028" duration="3166000" />
-      <workItem from="1549017420701" duration="18949000" />
+      <workItem from="1549017420701" duration="19566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22115000" />
+    <option name="totallyTimeSpent" value="22732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +360,7 @@
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09578697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Azure Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,6 +396,43 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Unit Tests Coverage" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09578697" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Azure Explorer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.32967034" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="NuGet" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="14" />
+      <window_info anchor="bottom" id="Unit Tests" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Unity" order="18" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="19" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="7" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -496,21 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1549097812413" expanded="true" signature="6:113" ph="..." />
-            <marker date="1549097812413" expanded="true" signature="149:469" ph="{...}" />
-            <marker date="1549097812413" expanded="true" signature="183:230" ph="{...}" />
-            <marker date="1549097812413" expanded="true" signature="258:310" ph="{...}" />
-            <marker date="1549097812413" expanded="true" signature="342:399" ph="{...}" />
-            <marker date="1549097812413" expanded="true" signature="427:467" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -545,6 +581,34 @@
             <marker date="1549099200862" expanded="true" signature="2844:2909" ph="{...}" />
             <marker date="1549099200862" expanded="true" signature="2951:3367" ph="{...}" />
             <marker date="1549099200862" expanded="true" signature="2978:3361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <marker date="1549099431967" expanded="true" signature="6:113" ph="..." />
+            <marker date="1549099431967" expanded="true" signature="149:675" ph="{...}" />
+            <marker date="1549099431967" expanded="true" signature="242:289" ph="{...}" />
+            <marker date="1549099431967" expanded="true" signature="317:369" ph="{...}" />
+            <marker date="1549099431967" expanded="true" signature="401:452" ph="{...}" />
+            <marker date="1549099431967" expanded="true" signature="491:605" ph="{...}" />
+            <marker date="1549099431967" expanded="true" signature="633:673" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549099800311" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549099800311" expanded="true" signature="120:294" ph="{...}" />
+            <marker date="1549099800311" expanded="true" signature="192:213" ph="{...}" />
+            <marker date="1549099800311" expanded="true" signature="271:292" ph="{...}" />
           </folding>
         </state>
       </provider>
