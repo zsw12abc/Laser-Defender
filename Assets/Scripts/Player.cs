@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
+        FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolumn);
     }
